@@ -1,0 +1,26 @@
+@media (max-width: 1279px) {
+    .fixLayout {
+        justify-content: center !important;
+    }
+
+
+}
+
+
+@media (max-width: 768px) {
+    #tick {
+        width: 28px;
+        height: 28px;
+        bottom: -6%;
+        position: relative;
+    }
+    #tick img {
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+
+}
+
