@@ -19,7 +19,7 @@ type PostFormProps = {
   post?: Models.Document;
 }
 
-const PostForm = ({post }: PostFormProps) => {
+const PostForm = ({post}: PostFormProps) => {
 
   const { mutateAsync: createPost } =
   useCreatePost();
