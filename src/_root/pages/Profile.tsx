@@ -1,5 +1,5 @@
 import "./Profile.css";
-import React, { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { useParams, useLocation } from "react-router-dom";
 import { useGetUserById } from "@/lib/react-query/queries";
 import { useUserContext } from "@/context/AuthContext";
@@ -33,7 +33,7 @@ const Profile = () => {
       const tickElement = document.getElementById('tick');
 
       if (tickElement) {
-        tickElement.innerHTML = `<img src="/assets/images/redTick.png" alt="Verified" class="tickRed w-[80px] h-[40px] ml-2 relative bottom-[-50%] w-full h-full" />`;
+        tickElement.innerHTML = `<img src="/assets/images/redTick.png" alt="Verified" class="tickRed ml-2 relative bottom-[-50%] w-full h-full" />`;
       }
     }
   }, [currentUser]); // Removed 'currentUser.name' from dependencies

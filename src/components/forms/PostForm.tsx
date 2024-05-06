@@ -20,9 +20,9 @@ type PostFormProps = {
   action: "Create" | "Update";
 }
 
-const PostForm = ({post, action }: PostFormProps) => {
+const PostForm = ({post }: PostFormProps) => {
 
-  const { mutateAsync: createPost, isPending: isLoadingCreate } =
+  const { mutateAsync: createPost } =
   useCreatePost();
 
   const { user } = useUserContext();

@@ -3,8 +3,7 @@
 import { ID, ImageGravity, Query } from "appwrite";
 
 import { appwriteConfig, account, databases, storage, avatars } from "./config";
-import { IUpdatePost, INewPost, INewUser, IUpdateUser } from "@/types";
-import { useQuery } from "@tanstack/react-query";
+import {  INewPost, INewUser, IUpdateUser } from "@/types";
 
 // ============================================================
 // AUTH

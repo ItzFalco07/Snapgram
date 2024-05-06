@@ -24,10 +24,9 @@ import {
     getInfinitePosts,
     searchPosts,
     getUsers,
-
+//aaaaaaaaaaaaaaaaa
   } from "@/lib/appwrite/api";
-  import { INewPost, INewUser, IUpdatePost, IUpdateUser } from "@/types/index";
-import { CreatePost } from "@/_root/pages";
+  import { INewPost, INewUser, IUpdateUser } from "@/types/index";
   
   // ============================================================
   // AUTH QUERIES
